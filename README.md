@@ -10,12 +10,12 @@ Distaster Response project contains three parts:
 2. Machine Learning Pipeline
 3. Flask App
 
-    ### 1. ETL Pipeline
-    ETL Pipeline Preparation.ipynb jupyter notebook shows the code and development of ETL pipeline. Process_data.py Python script loads the messages & categories datasets, and merges the clean data then store the data into a SQLite database.
-    ### 2. Machine Line Pipeline
-    ML Pipeline Preparation.ipynb Jupyther notebook shows the code and develoment of Machine Learning Pipeline. Train_classifier.py  script loads the data from a SQLite database. And it uses the data to train and tune a Machine Learning model using GridSearchCV. Finally the model will output as a .pkl file.
-    ### 3. Flask App
-    The web app can receive an input of new message and returns classification results in several categories.
+### 1. ETL Pipeline
+ETL Pipeline Preparation.ipynb jupyter notebook shows the code and development of ETL pipeline. Process_data.py Python script loads the messages & categories datasets, and merges the clean data then store the data into a SQLite database.
+### 2. Machine Line Pipeline
+ML Pipeline Preparation.ipynb Jupyther notebook shows the code and develoment of Machine Learning Pipeline. Train_classifier.py  script loads the data from a SQLite database. And it uses the data to train and tune a Machine Learning model using GridSearchCV. Finally the model will output as a .pkl file.
+### 3. Flask App
+The web app can receive an input of new message and returns classification results in several categories.
 
 ## Instructions
 
